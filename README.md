@@ -1,25 +1,33 @@
-# BMI Calculator
+# Image Editor using CSS Filters and Javascript
 
-A simple BMI (Body Mass Index) calculator in vanilla JS.
+A vanilla javascript app to add CSS filters on image.
 
 ### Features
 
-- [x] Calculate BMI by weight (in kg) and height (in cm).
-- [x] Interpret the calculated BMI.
-- [x] Visualize the interpretation with a color-coded BMI scale.
+- [x] Upload and preview images
+- [x] Update image using CSS filter functions
+- [x] Download filtered image
+- [x] Remove uploaded image
+- [x] Reset filters to default settings
+- [x] Preserve original image filename and dimensions
+- [x] Support transparency in downloaded images
 
-### BMI Categories
+### Supported Filters
 
-The BMI value is interpreted into the following categories:
-
-- Underweight: BMI < 18.5
-- Healthy: 18.5 ≤ BMI < 24.9
-- Overweight: 24.9 ≤ BMI < 29.9
-- Obese: BMI ≥ 30
+- [x] blur
+- [x] brightness
+- [x] contrast
+- [ ] drop-shadow
+- [x] grayscale
+- [x] hue-rotate
+- [x] invert
+- [x] opacity
+- [x] saturate
+- [x] sepia
 
 ### Screenshots
 
-![BMI Calculator](https://raw.githubusercontent.com/refinedguides/bmi-calculator/main/screenshot.png)
+![Image Editor](https://raw.githubusercontent.com/refinedguides/image-editor/main/screenshot.png)
 
 ### Support Me
 
